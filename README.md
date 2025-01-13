@@ -2,16 +2,12 @@
 
 ## Leader Key
 - **Leader key**: `Space`  
-  The leader key serves as a prefix for custom shortcuts. Replace `<leader>` in the key combinations below with `Space`.
-
 ---
 
 ## Key Mappings
 
 ### 1. **Insert Mode**
 - **`jk`**: Exit insert mode and switch to normal mode.  
-  Press `jk` quickly while in insert mode.
-
 ---
 
 ### 2. **Normal Mode**
@@ -47,14 +43,3 @@
   Usage: Tabs act as separate workspaces. Use these shortcuts to manage them.
 
 ---
-
-### Notes
-1. **Remap Explanation**:  
-   This configuration uses `vim.keymap.set()` for defining mappings.  
-   Each mapping includes a `desc` (description) for clarity, making it easy to reference when exploring keybindings in Neovim tools like Telescope.
-
-2. **How to Enable This Configuration**:  
-   Save the configuration in your `init.lua` or a separate Lua file (e.g., `keymaps.lua`).  
-   If stored separately, ensure to source it in your `init.lua`:
-   ```lua
-   require("keymaps")
