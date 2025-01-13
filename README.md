@@ -18,13 +18,6 @@
 
 ---
 
-#### **Number Increment/Decrement**
-- **`<leader>+`**: Increment the number under the cursor.  
-- **`<leader>-`**: Decrement the number under the cursor.  
-  Usage: Place the cursor over a number and use these shortcuts to adjust its value.
-
----
-
 #### **Window Management**
 - **`<leader>sv`**: Split the window vertically.  
 - **`<leader>sh`**: Split the window horizontally.  
